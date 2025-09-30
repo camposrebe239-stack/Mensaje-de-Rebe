@@ -1,0 +1,20 @@
+.titulo {
+  position: absolute;      
+  top: 20px;               
+  left: 50%;               
+  transform: translateX(-50%);
+  z-index: 10;             
+  text-align: center;
+  color: #eaff03;              /* blanco */
+  font-size: 2.5em;         /* más grande */
+  font-family: 'Georgia', serif; /* elegante */
+  font-weight: bold;
+  text-shadow: 
+      2px 2px 5px rgba(0,0,0,0.7),   /* sombra principal */
+      0 0 10px rgba(255,255,255,0.4); /* brillo sutil */
+  letter-spacing: 2px;       /* espacio entre letras */
+  line-height: 1.4em;        /* altura de línea */
+  background: rgba(0,0,0,0.2); /* fondo semitransparente detrás del texto */
+  padding: 10px 20px;        /* espacio interno para el fondo */
+  border-radius: 10px;       /* esquinas redondeadas */
+}
