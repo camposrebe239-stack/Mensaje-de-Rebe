@@ -6,7 +6,7 @@
   z-index: 10;             
   text-align: center;
   color: #eaff03;              /* blanco */
-  font-size: 2.5em;         /* más grande */
+  font-size: clamp(1.5em, 5vw, 2.5em);          /* más grande */
   font-family: 'Georgia', serif; /* elegante */
   font-weight: bold;
   text-shadow: 
@@ -18,3 +18,4 @@
   padding: 10px 20px;        /* espacio interno para el fondo */
   border-radius: 10px;       /* esquinas redondeadas */
 }
+
